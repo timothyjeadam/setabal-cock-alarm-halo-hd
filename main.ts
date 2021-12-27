@@ -40,7 +40,7 @@ basic.forever(function () {
             }
             haloDisplay.clear()
             haloDisplay.setZipLedColor(minuts, kitronik_halo_hd.colors(ZipLedColors.Yellow))
-            haloDisplay.setZipLedColor(hours * 5, kitronik_halo_hd.colors(ZipLedColors.Red))
+            haloDisplay.setZipLedColor(hours * 1, kitronik_halo_hd.colors(ZipLedColors.Red))
             haloDisplay.show()
             basic.pause(1)
         }
